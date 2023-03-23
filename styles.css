@@ -1,0 +1,58 @@
+form{
+    background-color: rgb(161, 133, 130);
+  }
+  
+  h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(18, 22, 22);
+    text-align: center;
+  }
+  
+  h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .container{
+    padding: 20px;;
+  }
+  
+  input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .submit{
+    background-color: #181a19;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .submit:hover {
+    opacity:2;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px;
+  }
+
+  input :invalid {
+    border: 2px dashed red;
+  }
+
+  input :valid {
+    border: 2px dashed green;
+  }
